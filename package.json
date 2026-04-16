@@ -1,0 +1,18 @@
+{
+  "name": "profile-card",
+  "version": "1.0.0",
+  "description": "A clean, accessible, responsive Profile Card built with plain HTML, CSS, and vanilla JavaScript as per the task requirements.",
+  "main": "script.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0"
+  }
+}

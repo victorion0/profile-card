@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <article data-testid="test-profile-card" class="profile-card">
+        
+        <!-- Avatar -->
+        <figure class="avatar-figure">
+            <img 
+                data-testid="test-user-avatar"
+                src="https://picsum.photos/id/64/300/300" 
+                alt="Profile picture of Jordan Lee, a smiling frontend developer with curly hair and glasses"
+                class="avatar">
+        </figure>
+
+        <!-- Content -->
+        <div class="content">
+            
+            <!-- Name -->
+            <header>
+                <h1 data-testid="test-user-name">Jordan Lee</h1>
+            </header>
+
+            <!-- Bio -->
+            <p data-testid="test-user-bio">
+                Passionate frontend developer focused on building accessible, responsive, and delightful user interfaces with clean code.
+            </p>
+
+            <!-- Current Time -->
+            <div class="time-wrapper">
+                <span class="time-label">Current epoch time (ms):</span>
+                <span 
+                    id="live-time" 
+                    data-testid="test-user-time"
+                    aria-live="polite">
+                </span>
+            </div>
+
+            <!-- Social Links -->
+            <nav aria-label="Social links">
+                <ul data-testid="test-user-social-links" class="social-list">
+                    <li>
+                        <a href="https://twitter.com" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           data-testid="test-user-social-twitter"
+                           aria-label="Follow on X (Twitter)">
+                            X
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           data-testid="test-user-social-github"
+                           aria-label="View GitHub profile">
+                            GitHub
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           data-testid="test-user-social-linkedin"
+                           aria-label="Connect on LinkedIn">
+                            LinkedIn
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Hobbies -->
+            <section aria-labelledby="hobbies-title">
+                <h2 id="hobbies-title">Hobbies</h2>
+                <ul data-testid="test-user-hobbies" class="list">
+                    <li>Coding</li>
+                    <li>Hiking</li>
+                    <li>Reading</li>
+                    <li>Photography</li>
+                </ul>
+            </section>
+
+            <!-- Dislikes -->
+            <section aria-labelledby="dislikes-title">
+                <h2 id="dislikes-title">Dislikes</h2>
+                <ul data-testid="test-user-dislikes" class="list">
+                    <li>Long meetings</li>
+                    <li>Poor documentation</li>
+                    <li>Unresponsive UIs</li>
+                </ul>
+            </section>
+
+        </div>
+    </article>
+
+    <script src="script.js"></script>
+</body>
+</html>
