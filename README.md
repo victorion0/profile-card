@@ -3,11 +3,10 @@
 A fully accessible, responsive, and testable Profile Card built with plain HTML, CSS, and vanilla JavaScript.
 
 ## Live Demo
-**Vercel:** https://profile-card-yourusername.vercel.app  
-*(Replace with your actual Vercel URL)*
+**Vercel:** https://profile-card-eight-liart.vercel.app/  
 
 ## GitHub Repository
-https://github.com/YOUR-USERNAME/profile-card
+https://github.com/victorion0/profile-card
 
 ## Features
 
